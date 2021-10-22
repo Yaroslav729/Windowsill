@@ -1,0 +1,1295 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+.navbarMenu {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Gilroy", sans-serif;
+  padding-bottom: 14px;
+  padding-left: 3px;
+}
+.navbarMenu-left {
+  font-size: 16px;
+  letter-spacing: 0;
+  text-align: center;
+}
+.navbarMenu-left__list {
+  display: flex;
+}
+.navbarMenu-left__menu {
+  color: #121212;
+  margin-right: 44px;
+}
+.navbarMenu-button {
+  display: none;
+}
+.navbarMenu-right {
+  display: flex;
+  justify-items: flex-end;
+}
+.navbarMenu-right__challenge {
+  display: flex;
+  justify-items: flex-start;
+  margin-right: 18px;
+}
+.navbarMenu-right__phoneImg {
+  display: inline-block;
+  background-image: url("../img/header/phone.png");
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  margin-right: 9px;
+}
+.navbarMenu-right__phoneText {
+  font-size: 21px;
+  line-height: 18px;
+  color: #121212;
+  font-weight: 800;
+}
+.navbarMenu-right__formText {
+  font-size: 16px;
+  color: #121212;
+  border-bottom: 1px solid #121212;
+}
+
+.header {
+  filter: drop-shadow(-0.174px 1.992px 8px rgba(104, 104, 104, 0.19));
+  background-color: #ffffff;
+}
+
+.headerInfo {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 4px;
+  padding-left: 3px;
+  font-family: "Gilroy", sans-serif;
+  font-weight: normal;
+  color: #121212;
+}
+.headerInfo-line {
+  width: 100%;
+  height: 1px;
+  background-color: #dcdcdc;
+  margin-bottom: 15px;
+}
+.headerInfo-logo {
+  width: 100px;
+  margin-right: 18px;
+}
+.headerInfo-logoImg {
+  background-image: url("../img/header/logo.svg");
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 55px;
+}
+.headerInfo-text {
+  display: flex;
+  align-items: center;
+  width: 245px;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 16px;
+  word-spacing: 2px;
+  padding-bottom: 8px;
+}
+.headerInfo-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+.headerInfo-right__address {
+  display: flex;
+  justify-items: flex-start;
+  margin-right: 32px;
+}
+.headerInfo-right__addressText {
+  font-size: 14px;
+}
+.headerInfo-right__clock {
+  display: flex;
+  justify-items: flex-start;
+}
+.headerInfo-right__clockText {
+  font-size: 14px;
+}
+.headerInfo-right__pin {
+  display: inline-block;
+  background-image: url("../img/header/pin.png");
+  background-repeat: no-repeat;
+  width: 14px;
+  height: 20px;
+  margin-right: 11px;
+}
+.headerInfo-right__time {
+  display: inline-block;
+  background-image: url("../img/header/time.png");
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.headerInfo-left {
+  display: flex;
+  width: 100%;
+}
+
+.ofer {
+  margin-bottom: 60px;
+}
+.ofer__img {
+  background-image: url("../img/ofer/background-ofer.png");
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+  padding-top: 86px;
+  padding-bottom: 181px;
+}
+.ofer__content {
+  display: flex;
+  justify-content: space-between;
+}
+.ofer__title {
+  font-size: 48px;
+  line-height: 48px;
+  color: #141414;
+  font-weight: bold;
+  font-family: "Gilroy", sans-serif;
+  margin-bottom: 23px;
+}
+.ofer__text {
+  width: 555px;
+  font-size: 16px;
+  color: #4c4c4c;
+  font-family: "Gilroy", sans-serif;
+  margin-bottom: 35px;
+}
+.ofer__text-bold {
+  font-weight: bold;
+}
+.ofer-left {
+  width: 608px;
+}
+.ofer-form {
+  width: 360px;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 24.5px rgba(117, 137, 151, 0.28));
+  background-color: #ffffff;
+  margin-top: 40px;
+}
+.ofer-form__button {
+  width: 304px;
+  border-radius: 8px;
+  background-color: #e4ad00;
+  background-image: linear-gradient(180deg, #ffd800 0%, #ffc000 100%);
+  padding: 22px 110px 25px 105px;
+  margin-bottom: 21px;
+}
+.ofer-button {
+  padding: 29px 45px 24px 46px;
+  width: 273px;
+  border-radius: 10px;
+  background-color: #e4ad00;
+  background-image: linear-gradient(180deg, #ffd800 0%, #ffc000 100%);
+}
+
+.button {
+  font-size: 14px;
+  color: #000000;
+  font-weight: 800;
+  font-family: "Gilroy", sans-serif;
+  text-transform: uppercase;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 21px 27px 29px 27px;
+}
+.form__label-name {
+  display: inline;
+}
+.form__title {
+  font-size: 24px;
+  line-height: 34px;
+  color: #141414;
+  font-weight: bold;
+  font-family: "Gilroy", sans-serif;
+  text-align: center;
+  margin-bottom: 9px;
+}
+.form__text {
+  display: block;
+  font-size: 14px;
+  color: #4c4c4c;
+  font-family: "Gilroy", sans-serif;
+  text-align: center;
+  margin-bottom: 41px;
+}
+.form__input-name {
+  font-size: 12px;
+  line-height: 24px;
+  color: #4c4c4c;
+  font-family: "Gilroy", sans-serif;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 38px;
+}
+.form__input-phone {
+  font-size: 12px;
+  line-height: 24px;
+  color: #4c4c4c;
+  font-family: "Gilroy", sans-serif;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 30px;
+}
+.form__input-checkbox {
+  display: none;
+}
+.form__input-checkbox:checked + .form__fake::before {
+  opacity: 0;
+}
+.form__labelText {
+  font-size: 12px;
+  color: #4c4c4c;
+  font-family: "Gilroy", sans-serif;
+}
+.form__fake {
+  display: inline-block;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+  border: 2px solid #e4ad00;
+  margin-right: 7px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+.form__fake:before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-image: url("../img/ofer/checkbox.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 18px;
+  height: 14px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  transition: 0.2s;
+}
+
+.gradient {
+  background-image: url("../img/advantage/background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 330px;
+}
+
+.title {
+  font-size: 40px;
+  line-height: 48px;
+  color: #141414;
+  font-weight: bold;
+  font-family: "Gilroy", sans-serif;
+  text-align: center;
+}
+
+.card {
+  margin-bottom: 114px;
+}
+.card__title {
+  margin-right: -1px;
+  margin-bottom: 60px;
+}
+.card-block {
+  display: flex;
+  justify-content: space-between;
+}
+.card-block__economic {
+  width: 361px;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 9px rgba(154, 154, 154, 0.2));
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  padding-bottom: 29px;
+}
+.card-block__economic-img {
+  position: relative;
+  background-image: url("../img/card/economic.png");
+  background-repeat: no-repeat;
+  background-position: -3% 79%;
+  width: 360px;
+  height: 206px;
+  border-radius: 10px;
+}
+.card-block__economic-img::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/card/percentage.png");
+  top: 19px;
+  right: 21px;
+  width: 30px;
+  height: 30px;
+}
+.card-block__economic-info {
+  padding-left: 21px;
+}
+.card-block__economic-title {
+  font-size: 18px;
+  line-height: 45px;
+  color: #141414;
+  font-weight: bold;
+  font-family: "Gilroy", sans-serif;
+  padding-top: 4px;
+}
+.card-block__economic-text {
+  font-size: 16px;
+  color: #4c4c4c;
+  font-family: "Gilroy", sans-serif;
+  margin-bottom: 22px;
+}
+.card-block__economic-button {
+  border-radius: 10px;
+  background-image: linear-gradient(180deg, #ffd800 0%, #ffc000 100%);
+  padding: 26px 89px 26px 90px;
+}
+.card-block__danke {
+  width: 362px;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 9px rgba(154, 154, 154, 0.2));
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  padding-bottom: 29px;
+}
+.card-block__danke-img {
+  position: relative;
+  background-image: url("../img/card/danke.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  width: 360px;
+  height: 206px;
+  border-radius: 10px;
+}
+.card-block__danke-img::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/card/dollar-symbol.png");
+  top: 19px;
+  right: 19px;
+  width: 30px;
+  height: 30px;
+}
+.card-block__danke-info {
+  padding-left: 21px;
+}
+.card-block__danke-title {
+  font-size: 18px;
+  line-height: 45px;
+  color: #141414;
+  font-weight: bold;
+  font-family: "Gilroy", sans-serif;
+  padding-top: 4px;
+}
+.card-block__danke-text {
+  font-size: 16px;
+  color: #4c4c4c;
+  font-family: "Gilroy", sans-serif;
+  margin-bottom: 22px;
+}
+.card-block__danke-button {
+  border-radius: 10px;
+  background-image: linear-gradient(180deg, #ffd800 0%, #ffc000 100%);
+  padding: 26px 89px 26px 90px;
+}
+.card-block__moeller {
+  width: 356px;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 9px rgba(154, 154, 154, 0.2));
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  padding-bottom: 29px;
+}
+.card-block__moeller-img {
+  position: relative;
+  background-image: url("../img/card/moeller.png");
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  width: 355px;
+  height: 206px;
+  border-radius: 10px;
+}
+.card-block__moeller-img::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/card/crown.png");
+  top: 19px;
+  right: 14px;
+  width: 32px;
+  height: 32px;
+}
+.card-block__moeller-info {
+  padding-left: 21px;
+}
+.card-block__moeller-title {
+  font-size: 18px;
+  line-height: 45px;
+  color: #141414;
+  font-weight: bold;
+  font-family: "Gilroy", sans-serif;
+  padding-top: 4px;
+}
+.card-block__moeller-text {
+  font-size: 16px;
+  color: #4c4c4c;
+  font-family: "Gilroy", sans-serif;
+  margin-bottom: 22px;
+}
+.card-block__moeller-button {
+  border-radius: 10px;
+  background-image: linear-gradient(180deg, #ffd800 0%, #ffc000 100%);
+  padding: 26px 89px 26px 90px;
+}
+
+.advantage__title {
+  width: 990px;
+  margin: 0 auto 52px;
+}
+.advantage-block {
+  display: flex;
+  justify-content: space-between;
+}
+.advantage-block__left {
+  padding-left: 2px;
+}
+.advantage-block__left-text {
+  width: 557px;
+  margin-bottom: 42px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #4c4c4c;
+  font-family: "Gilroy", sans-serif;
+}
+.advantage-block__right {
+  background-image: url("../img/advantage/man.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 559px;
+  height: 538px;
+}
+.advantage-list__contents {
+  display: flex;
+  flex-direction: column;
+}
+.advantage-list__all {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 388px;
+}
+.advantage-list__quality {
+  margin-bottom: 40px;
+}
+.advantage-list__quality-title {
+  font-size: 16px;
+  line-height: 16px;
+  color: #141414;
+  font-weight: bold;
+  font-family: "Gilroy", sans-serif;
+  margin-bottom: 13px;
+}
+.advantage-list__quality-text {
+  display: inline-block;
+  width: 293px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #4c4c4c;
+  font-family: "Gilroy", sans-serif;
+  padding-bottom: 5px;
+}
+.advantage-list__quality-img {
+  background-image: url("../img/advantage/quality.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 72px;
+  height: 73px;
+}
+.advantage-list__trueness {
+  margin-bottom: 25px;
+}
+.advantage-list__trueness-title {
+  font-size: 16px;
+  color: #141414;
+  font-weight: bold;
+  font-family: "Gilroy", sans-serif;
+  margin-bottom: 13px;
+  line-height: 16px;
+}
+.advantage-list__trueness-text {
+  display: inline-block;
+  width: 293px;
+  font-size: 16px;
+  color: #4c4c4c;
+  font-family: "Gilroy", sans-serif;
+  line-height: 20px;
+  padding-bottom: 5px;
+}
+.advantage-list__trueness-img {
+  background-image: url("../img/advantage/trueness.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 72px;
+  height: 73px;
+}
+.advantage-list__delivery {
+  margin-bottom: 35px;
+}
+.advantage-list__delivery-title {
+  font-size: 16px;
+  color: #141414;
+  font-weight: bold;
+  font-family: "Gilroy", sans-serif;
+  margin-bottom: 13px;
+  line-height: 16px;
+}
+.advantage-list__delivery-text {
+  display: inline-block;
+  width: 293px;
+  font-size: 16px;
+  color: #4c4c4c;
+  font-family: "Gilroy", sans-serif;
+  line-height: 20px;
+}
+.advantage-list__delivery-img {
+  background-image: url("../img/advantage/delivery.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 79px;
+  height: 50px;
+}
+.advantage-list__mounting-title {
+  font-size: 16px;
+  color: #141414;
+  font-weight: bold;
+  font-family: "Gilroy", sans-serif;
+  margin-bottom: 13px;
+  line-height: 20px;
+}
+.advantage-list__mounting-text {
+  display: inline-block;
+  width: 293px;
+  font-size: 16px;
+  color: #4c4c4c;
+  font-family: "Gilroy", sans-serif;
+  line-height: 20px;
+  padding-bottom: 5px;
+}
+.advantage-list__mounting-img {
+  background-image: url("../img/advantage/mounting.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 72px;
+  height: 73px;
+}
+
+@media (max-width: 1199px) {
+  .container {
+    max-width: 970px;
+  }
+
+  .headerInfo-right__addressText {
+    font-size: 12px;
+  }
+  .headerInfo-right__clockText {
+    font-size: 12px;
+  }
+
+  .navbarMenu-left__menu {
+    margin-right: 20px;
+  }
+  .navbarMenu-left__menu:nth-child(5) {
+    margin-right: 0;
+  }
+
+  .card-block__economic {
+    width: 312px;
+  }
+  .card-block__economic-button {
+    padding: 26px 65px 26px 65px;
+  }
+  .card-block__economic-img {
+    width: 310px;
+  }
+  .card-block__economic-text {
+    font-size: 14px;
+  }
+  .card-block__danke {
+    width: 312px;
+  }
+  .card-block__danke-img {
+    width: 310px;
+  }
+  .card-block__danke-text {
+    font-size: 14px;
+  }
+  .card-block__danke-button {
+    padding: 26px 65px 26px 65px;
+  }
+  .card-block__moeller {
+    width: 312px;
+  }
+  .card-block__moeller-img {
+    width: 310px;
+  }
+  .card-block__moeller-text {
+    font-size: 14px;
+  }
+  .card-block__moeller-button {
+    padding: 26px 65px 26px 65px;
+  }
+}
+@media (max-width: 991px) {
+  .container {
+    max-width: 700px;
+  }
+
+  .headerInfo-right__clockText {
+    font-size: 14px;
+  }
+  .headerInfo-right__address {
+    display: none;
+  }
+
+  .navbarMenu-right__formTop {
+    display: none;
+  }
+  .navbarMenu-right__challenge {
+    margin-right: 0;
+  }
+
+  .ofer {
+    margin-bottom: 14px;
+  }
+  .ofer__content {
+    flex-direction: column;
+  }
+  .ofer__img {
+    padding-bottom: 39px;
+  }
+  .ofer__text {
+    margin: 0 auto 35px;
+  }
+  .ofer-left {
+    text-align: center;
+    margin: 0 auto 29px;
+  }
+  .ofer-form {
+    margin: auto;
+  }
+
+  .card-block {
+    flex-direction: column;
+  }
+  .card-block__economic {
+    width: 362px;
+    margin: 0 auto 31px;
+  }
+  .card-block__economic-button {
+    padding: 26px 89px 26px 90px;
+  }
+  .card-block__economic-img {
+    width: 360px;
+  }
+  .card-block__economic-text {
+    font-size: 16px;
+  }
+  .card-block__danke {
+    width: 362px;
+    margin: 0 auto 31px;
+  }
+  .card-block__danke-img {
+    width: 360px;
+  }
+  .card-block__danke-text {
+    font-size: 16px;
+  }
+  .card-block__danke-button {
+    padding: 26px 89px 26px 90px;
+  }
+  .card-block__moeller {
+    width: 362px;
+    margin: 0 auto 0;
+  }
+  .card-block__moeller-img {
+    width: 360px;
+  }
+  .card-block__moeller-text {
+    font-size: 16px;
+  }
+  .card-block__moeller-button {
+    padding: 26px 89px 26px 90px;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: 576px;
+    width: 92%;
+  }
+
+  .headerTop {
+    background-color: #ffd300;
+  }
+
+  .headerInfo {
+    padding: 11px;
+  }
+  .headerInfo-logoImg {
+    display: none;
+  }
+  .headerInfo-line {
+    display: none;
+  }
+  .headerInfo-left {
+    display: none;
+  }
+  .headerInfo-right__clock {
+    display: none;
+  }
+  .headerInfo-right__address {
+    display: flex;
+    flex-basis: 100%;
+  }
+  .headerInfo-right__addressText {
+    font-size: 14px;
+    color: #ffffff;
+  }
+  .headerInfo-right__pin {
+    background-image: url("../img/header/pinWhite.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 10px;
+    height: 16px;
+  }
+
+  .navbarMenu {
+    align-items: center;
+    padding: 10px;
+  }
+  .navbarMenu-left__list {
+    display: none;
+  }
+  .navbarMenu-logoImg {
+    background-image: url("../img/header/logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 55px;
+    margin-right: 27px;
+  }
+  .navbarMenu-right {
+    flex-basis: 100%;
+  }
+  .navbarMenu-right__challenge {
+    align-items: center;
+  }
+  .navbarMenu-btn {
+    display: flex;
+    width: 30px;
+    height: 22px;
+    justify-content: space-between;
+    flex-direction: column;
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+  .navbarMenu-btn__line {
+    width: 30px;
+    height: 2px;
+    background-color: #000;
+  }
+
+  .ofer-left {
+    width: 530px;
+    margin: 0 auto 29px;
+  }
+  .ofer__content {
+    position: relative;
+    width: 530px;
+    margin: auto;
+  }
+  .ofer__img {
+    position: relative;
+    background-image: url("../img/ofer/mobail/background-oferMobail.png");
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+  }
+  .ofer__img:before {
+    content: "";
+    position: absolute;
+    background-color: #fafafa;
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  .ofer__title {
+    width: 520px;
+    margin: 0 auto 29px;
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .ofer__text {
+    width: 530px;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .ofer-button {
+    padding: 29px 35px 24px 43px;
+    margin-bottom: 5px;
+  }
+
+  .card__title {
+    width: 360px;
+    font-size: 36px;
+    line-height: 40px;
+    margin: 0 auto 29px;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    max-width: 420px;
+    width: 100%;
+  }
+
+  .navbarMenu-logoImg {
+    background-image: url("../img/header/logoMedia.svg");
+    width: 77px;
+    height: 43px;
+  }
+  .navbarMenu-right__phoneImg {
+    margin-right: 10px;
+  }
+
+  .ofer-left {
+    width: 395px;
+  }
+  .ofer__img {
+    padding-top: 91px;
+  }
+  .ofer__content {
+    width: 395px;
+  }
+  .ofer__title {
+    width: 350px;
+  }
+  .ofer__text {
+    width: 373px;
+  }
+
+  .card__title {
+    width: 360px;
+    font-size: 28px;
+    line-height: 34px;
+    margin: 0 auto 29px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

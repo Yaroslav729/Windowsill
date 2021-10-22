@@ -1,0 +1,18 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 9" width="13" height="9">
+	<title>1</title>
+	<defs>
+		<image width="492" height="332" id="img1" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDQ5MiA0OTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQ5MiA0OTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxnPg0KCQk8cGF0aCBkPSJNNDg0LjEyOCwxMDQuNDc4bC0xNi4xMTYtMTYuMTE2Yy01LjA2NC01LjA2OC0xMS44MTYtNy44NTYtMTkuMDI0LTcuODU2Yy03LjIwOCwwLTEzLjk2NCwyLjc4OC0xOS4wMjgsNy44NTYNCgkJCUwyMDMuNTA4LDMxNC44MUw2Mi4wMjQsMTczLjMyMmMtNS4wNjQtNS4wNi0xMS44Mi03Ljg1Mi0xOS4wMjgtNy44NTJjLTcuMjA0LDAtMTMuOTU2LDIuNzkyLTE5LjAyNCw3Ljg1MmwtMTYuMTIsMTYuMTEyDQoJCQlDMi43ODQsMTk0LjUxLDAsMjAxLjI3LDAsMjA4LjQ3YzAsNy4yMDQsMi43ODQsMTMuOTYsNy44NTIsMTkuMDI4bDE1OS43NDQsMTU5LjczNmMwLjIxMiwwLjMsMC40MzYsMC41OCwwLjY5NiwwLjgzNg0KCQkJbDE2LjEyLDE1Ljg1MmM1LjA2NCw1LjA0OCwxMS44Miw3LjU3MiwxOS4wODQsNy41NzJoMC4wODRjNy4yMTIsMCwxMy45NjgtMi41MjQsMTkuMDI0LTcuNTcybDE2LjEyNC0xNS45OTINCgkJCWMwLjI2LTAuMjU2LDAuNDgtMC40NjgsMC42MTItMC42ODRsMjQ0Ljc4NC0yNDQuNzZDNDk0LjYyNCwxMzIuMDEsNDk0LjYyNCwxMTQuOTY2LDQ4NC4xMjgsMTA0LjQ3OHoiLz4NCgk8L2c+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="1. главный экран">
+		<g id="ФОРМА">
+			<g id="политика">
+				<g id="поле">
+					<use id="confirm" href="#img1" transform="matrix(0.026,0,0,0.027,0,0)"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
