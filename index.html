@@ -7,6 +7,7 @@
     <title>Немецкие подоконники</title>
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="sass/style.css">
   </head>
   <body>
@@ -97,7 +98,7 @@
                 Закажите расчет стоимости новых подоконников вместе с монтажом и <span class="ofer__text-bold">получи скидку при заказе от 10 000₽ 30%!</span>
                 Мы подберем цвет, материал и&nbsp;производителя под ваш интерьер и бюджет уже&nbsp;сегодня
               </h5>
-              <button class="button ofer-button">
+              <button class="button ofer-button" type="button">
                 Подобрать подоконник
               </button>
             </div>
@@ -110,7 +111,7 @@
                 <input type="text" class="form__input-name" id="name" placeholder="Ваше имя:">
                 <label for="phone" class="form__label-phone"></label>
                 <input type="text" class="form__input-phone" id="phone" placeholder="Ваш телефон:">
-                <button class="button ofer-form__button">
+                <button class="button ofer-form__button" type="button">
                   Отправить
                 </button>
                 <label for="checkbox-form" class="form__label">
@@ -191,60 +192,87 @@
       <section class="advantage">
         <div class="container">
           <h2 class="title advantage__title">
-            Почему в Краснодаре к нас ежегодно обращаются более 500 человек?
+            Почему в Краснодаре к нам ежегодно обращаются более 500 человек?
           </h2>
           <!-- /.belief__title -->
           <div class="advantage-block">
             <div class="advantage-block__left">
               <div class="advantage-block__left-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
-                lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt
-                ut labore et dolore magna aliqua. Quis ipsum
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore
+                magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
+                facilisis.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna
+                aliqua. Quis ipsum
+
+                <span class="advantage-block__left-textNone">
+                  suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
+                facilisis.
+                </span>
               </div>
               <!-- /.advantage-block__left-text -->
               <div class="advantage-list">
                 <div class="advantage-list__all advantage-list__quality">
                   <div class="advantage-list__quality-img"></div>
-                  <div class="advantage-list__quality-contents list__contents">
+                  <div class="advantage-list__quality-contents list-contents">
                     <h5 class="advantage-list__quality-title">Немецкое качество</h5>
                     <span class="advantage-list__quality-text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                 </span>
+                    <span class="advantage-list__quality-text advantage-list__quality-textNone">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                      Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                    </span>
                   </div>
                   <!-- /.advantage-list__quality-contents -->
                 </div>
                 <!-- /.advantage-list__quality -->
                 <div class="advantage-list__all advantage-list__trueness">
                   <div class="advantage-list__trueness-img"></div>
-                  <div class="advantage-list__trueness-contents">
-                  <h5 class="advantage-list__trueness-title">Немецкое качество</h5>
-                  <span class="advantage-list__trueness-text">
+                  <div class="advantage-list__trueness-contents list-contents">
+                    <h5 class="advantage-list__trueness-title">Немецкое качество</h5>
+                    <span class="advantage-list__trueness-text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                   </span>
+                    <span class="advantage-list__trueness-text advantage-list__trueness-textNone">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                      Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                    </span>
                   </div>
                   <!-- /.advantage-list__trueness-contents -->
                 </div>
                 <!-- /.advantage-list__trueness -->
                 <div class="advantage-list__all advantage-list__delivery">
                   <div class="advantage-list__delivery-img"></div>
-                  <div class="advantage-list__delivery-contents">
-                  <h5 class="advantage-list__delivery-title">Немецкое качество</h5>
-                  <span class="advantage-list__delivery-text">
+                  <div class="advantage-list__delivery-contents list-contents">
+                    <h5 class="advantage-list__delivery-title">Немецкое качество</h5>
+                    <span class="advantage-list__delivery-text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                   </span>
+                    <span class="advantage-list__delivery-text advantage-list__delivery-textNone">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                      Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                    </span>
                   </div>
                   <!-- /.advantage-list__trueness-contents -->
                 </div>
                 <!-- /.advantage-list__delivery -->
                 <div class="advantage-list__all advantage-list__mounting">
                   <div class="advantage-list__mounting-img"></div>
-                  <div class="advantage-list__mounting-contents">
-                  <h5 class="advantage-list__mounting-title">Немецкое качество</h5>
-                  <span class="advantage-list__mounting-text">
+                  <div class="advantage-list__mounting-contents list-contents">
+                    <h5 class="advantage-list__mounting-title">Немецкое качество</h5>
+                    <span class="advantage-list__mounting-text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                   </span>
+                    <span class="advantage-list__mounting-text advantage-list__mounting-textNone">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                      Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                    </span>
                   </div>
                   <!-- /.advantage-list__delivery-contents -->
                 </div>
@@ -254,7 +282,6 @@
             </div>
             <!-- /.advantage-block__right -->
             <div class="advantage-block__right">
-              <div class="advantage-block__right-img"></div>
             </div>
             <!-- /.advantage-block__left -->
           </div>
@@ -264,5 +291,210 @@
       </section>
     </div>
     <!-- /.gradient -->
+    <div class="background-wave"></div>
+    <section class="gallery">
+      <div class="container">
+        <div class="gallery-info">
+          <h2 class="title gallery-info__title">
+            Наши работы
+          </h2>
+          <span class="gallery-info__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
+            lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+            accumsan lacus vel facilisis.
+          </span>
+          <!-- /.gallery__text -->
+        </div>
+        <!-- /.gallery-info -->
+        <nav class="cover">
+          <ul class="cover-list">
+            <li data-f="all" class="cover-list__total cover-list__all">Все работы</li>
+            <li data-f="economic" class="cover-list__total cover-list__economic">Категория 1</li>
+            <li data-f="danke" class="cover-list__total cover-list__danke">Категория 2</li>
+            <li data-f="moeller" class="cover-list__total cover-list__moeller">Категория 3</li>
+            <li class="cover-list__triangle"></li>
+          </ul>
+        </nav>
+        <div class="hr"></div>
+        <div class="cover-block">
+          <div class="cover-block__box box cover-block__economicOne economic"></div>
+          <div class="cover-block__box box cover-block__moellerOne danke"></div>
+          <div class="cover-block__box box cover-block__dankeToo moeller"></div>
+          <div class="cover-block__box box cover-block__economicOne economic"></div>
+          <div class="cover-block__box box cover-block__dankeToo danke"></div>
+          <div class="cover-block__box box cover-block__moellerToo danke"></div>
+          <div class="cover-block__box box cover-block__economicOne economic"></div>
+          <div class="cover-block__box box cover-block__moellerOne moeller"></div>
+          <div class="cover-block__box box cover-block__moellerToo moeller"></div>
+          <div class="cover-block__box box cover-block__economicOne economic"></div>
+          <div class="cover-block__box box cover-block__moellerOne danke"></div>
+          <div class="cover-block__box box cover-block__dankeToo moeller"></div>
+          <div class="cover-block__box box cover-block__economicOne economic"></div>
+          <div class="cover-block__box box cover-block__dankeToo danke"></div>
+          <div class="cover-block__box box cover-block__moellerToo danke"></div>
+          <div class="cover-block__box box cover-block__economicOne economic"></div>
+          <div class="cover-block__box box cover-block__moellerOne moeller"></div>
+          <div class="cover-block__box box cover-block__moellerToo moeller"></div>
+        </div>
+        <!-- /.cover-block -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <div class="about-backgroundWood">
+      <section class="about">
+        <div class="container">
+          <div class="about-block">
+            <div class="about-info">
+              <h2 class="about-info__title">
+                О компании
+              </h2>
+              <!-- /.about-title -->
+              <div class="about-info__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
+                lacus vel facilisis. <br><br>
+
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
+                viverra maecenas <span class="about-info__text-media">accumsan lacus vel facilisis. Lorem ipsum dolor sit amet,
+                consectetur</span>
+              </div>
+              <!-- /.about-info__text -->
+            </div>
+            <!-- /.about-info -->
+            <div class="form about__form">
+              <span class="form__text form__about-text"><span class="form__about-textBold">Оставьте контакты</span> &nbsp; и получите скидку на заказ от 10 000 ₽ 30%</span>
+              <label for="nameAbout" class="form__label-name"></label>
+              <input type="text" class="form__input-name about__input-name" id="nameAbout" placeholder="Ваше имя:">
+              <label for="phoneAbout" class="form__label-phone"></label>
+              <input type="text" class="form__input-phone about__input-phone" id="phoneAbout" placeholder="(999) 999-99-99"><span class="about__input-phone"></span>
+              <button class="button form__button-about" type="button">
+                ПОДОБРАТЬ ПОДОКОНИК
+              </button>
+              <label for="checkbox-formAbout" class="form__label">
+                <input type="checkbox" class="form__input-checkbox" id="checkbox-formAbout">
+                <span class="form__fake form__about-fake"></span>
+                <span class="form__labelText">Я согласен с Политикой конфиденциальности</span>
+              </label>
+            </div>
+            <!-- /.form -->
+          </div>
+          <!-- /.about-block -->
+        </div>
+        <!-- /.container -->
+      </section>
+    </div>
+    <!-- /.about-backgroundWood -->
+    <section class="reviews">
+      <div class="container">
+        <h2 class="title reviews__title">
+          Что говорят о нас наши клиенты
+        </h2>
+
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper card-swiper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="card-reviews card-one">
+                <div class="card-img card-one__img"></div>
+                <div class="card-itemImgStar">
+                  <div class="card-imgStar card-one__imgStar"></div>
+                  <div class="card-imgStar card-one__imgStar"></div>
+                  <div class="card-imgStar card-one__imgStar"></div>
+                  <div class="card-imgStar card-one__imgStar"></div>
+                  <div class="card-imgStar card-one__imgStar"></div>
+                </div>
+                <!-- /.card-item__imgStar -->
+                <h4 class="card-title card-one__title">Марк Михеенко</h4>
+                <div class="card-text card-one__text">
+                  У старых окон исцарапались и продавились подоконники. Меняли их на подоконники Moeller.
+                  Прошло 3 года, все в отличном состоянии. Регулярно окна моем, дети на них сидят, стоят
+                  горшки с растениями. Качеством довольны.
+                </div>
+                <!-- /.card-text card-one__text -->
+              </div>
+              <!-- /.card-one -->
+            </div>
+            <div class="swiper-slide">
+              <div class="card-reviews card-too">
+                <div class="card-img card-too__img"></div>
+                <div class="card-itemImgStar">
+                  <div class="card-imgStar card-too__imgStar"></div>
+                  <div class="card-imgStar card-too__imgStar"></div>
+                  <div class="card-imgStar card-too__imgStar"></div>
+                  <div class="card-imgStar card-too__imgStar"></div>
+                  <div class="card-imgStar card-too__imgStar"></div>
+                </div>
+                <!-- /.card-item__imgStar -->
+                <h4 class="card-title card-too__title">Ирина Сидорова</h4>
+                <div class="card-text card-too__text">
+                  Заказывала окна 3 года назад. Все прекрасно работает, в доме очень тепло. Дети часто залезают
+                  на подоконник - переживала за этот момент, но нигде не просело, щелочек нет, качество отлично.
+                  Раз в год звонят и спрашивают, есть ли жалобы. Отличная компания, работают качественно и быстро,
+                  сервисом очень довольна. Спасибо!
+                </div>
+                <!-- /.card-text card-too__text -->
+              </div>
+              <!-- /.card-too -->
+            </div>
+            <div class="swiper-slide">
+              <div class="card-reviews card-three">
+                <div class="card-img card-three__img"></div>
+                <div class="card-itemImgStar">
+                  <div class="card-imgStar card-three__imgStar"></div>
+                  <div class="card-imgStar card-three__imgStar"></div>
+                  <div class="card-imgStar card-three__imgStar"></div>
+                  <div class="card-imgStar card-three__imgStar"></div>
+                  <div class="card-imgStar card-three__imgStar"></div>
+                </div>
+                <!-- /.card-item__imgStar -->
+                <h4 class="card-title card-three__title">Иван Романенко</h4>
+                <div class="card-text card-three__text">
+                  Когда меняли окна в квартире, нам не установили подоконники. Стали искать, где можно сделать, чтобы
+                  по цене и качеству хорошее соотношение было. Выбрали модель Danke, качество и внешний вид на уровне.
+                  И знаете, всем довольны, спасибо!
+                </div>
+                <!-- /.card-text card-three__text -->
+              </div>
+              <!-- /.card-three -->
+            </div>
+            <div class="swiper-slide">
+              <div class="card-reviews card-too">
+                <div class="card-img card-too__img"></div>
+                <div class="card-itemImgStar">
+                  <div class="card-imgStar card-too__imgStar"></div>
+                  <div class="card-imgStar card-too__imgStar"></div>
+                  <div class="card-imgStar card-too__imgStar"></div>
+                  <div class="card-imgStar card-too__imgStar"></div>
+                  <div class="card-imgStar card-too__imgStar"></div>
+                </div>
+                <!-- /.card-item__imgStar -->
+                <h4 class="card-title card-too__title">Ирина Сидорова</h4>
+                <div class="card-text card-too__text">
+                  Заказывала окна 3 года назад. Все прекрасно работает, в доме очень тепло. Дети часто залезают
+                  на подоконник - переживала за этот момент, но нигде не просело, щелочек нет, качество отлично.
+                  Раз в год звонят и спрашивают, есть ли жалобы. Отличная компания, работают качественно и быстро,
+                  сервисом очень довольна. Спасибо!
+                </div>
+                <!-- /.card-text card-too__text -->
+              </div>
+              <!-- /.card-too -->
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <!-- /.container -->
+    </section>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

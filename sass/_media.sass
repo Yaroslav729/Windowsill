@@ -57,6 +57,44 @@
         &-button
           padding: 26px 65px 26px 65px
 
+  .advantage
+    &__title
+      width: 970px
+
+    &-block
+      flex-direction: column
+
+      &__left
+        margin: 0 auto 30px
+
+      &__right
+        margin: 0 auto
+
+  .cover
+    &-block
+      height: 405px
+
+      &__box
+        width: 300px
+        height: 190px
+        margin-bottom: 14px
+
+  .about
+    padding-top: 250px
+    margin-bottom: 150px
+
+    &-block
+      padding: 51px 25px 28px
+
+    &-backgroundWood
+      background-image: url("../img/about/wood_1220.png")
+      background-position: 50% 120%
+
+  .swiper
+    width: 800px
+    padding-right: 20px
+    padding-left: 20px
+
 @media (max-width: 991px)
   .container
     max-width: 700px
@@ -137,6 +175,115 @@
 
         &-button
           padding: 26px 89px 26px 90px
+
+  .advantage
+    &__title
+      width: 700px
+
+  .gallery
+    &-info
+      &__title
+        margin: 0 auto 27px
+        width: 395px
+
+      &__text
+        width: 557px
+        font-size: 16px
+        text-align: center
+
+  .cover
+    margin: 0 auto
+    width: 557px
+    &-list
+      position: relative
+
+      &__triangle
+        position: absolute
+        background-image: url("../img/gallery/triangle.svg")
+        background-repeat: no-repeat
+        width: 16px
+        height: 16px
+        right: 10px
+        top: 6px
+
+      &__all
+        width: 119px
+
+      &__economic
+        display: none
+
+      &__danke
+        display: none
+
+      &__moeller
+        display: none
+
+    &-block
+      height: 820px
+
+      &__box
+        width: 375px
+        height: 260px
+        margin: 0 auto 14px
+        float: none
+
+  .hr
+    width: 557px
+    margin: 0 auto 22px
+
+  .about
+    padding-top: 56px
+    margin-bottom: 70px
+    padding-bottom: 250px
+
+    &-block
+      width: 375px
+      background-color: transparent
+      flex-direction: column
+      align-items: center
+      margin: 0 auto
+      padding: 0
+
+    &-backgroundWood
+      background-position: 50% 50%
+
+    &-info
+      text-align: center
+      margin: 0 auto 31px
+      width: 375px
+
+      &__text
+        width: 375px
+        padding-left: 0
+        text-align: left
+
+      &__title
+        width: 360px
+        font-size: 28px
+        line-height: 32px
+        margin-bottom: 20px
+
+
+    &__form
+      border-radius: 20px
+      filter: drop-shadow(0 0 40.5px rgba(68,68,68,0.16))
+      background-color: #ffffff
+      padding: 36px 36px 36px 40px
+      width: 376px
+
+  .swiper
+    width: 375px
+    padding-right: 7px
+    padding-left: 7px
+
+  .reviews
+    &__title
+      width: 250px
+      text-align: center
+      font-size: 28px
+      line-height: 33px
+      margin: 0 auto 15px
+
 
 @media (max-width: 767px)
   .container
@@ -253,15 +400,165 @@
 
     &-button
       padding: 29px 35px 24px 43px
-      margin-bottom: 5px
+      margin-bottom: 3px
 
   .card
+    margin-bottom: 52px
+
     &__title
       width: 360px
       font-size: 36px
       line-height: 40px
       margin: 0 auto 29px
 
+  .advantage
+    padding-bottom: 36px
+    &-block
+      &__left
+        margin-bottom: 16px
+        &-text
+          width: 375px
+          margin: 0 auto 29px
+
+        &-textNone
+          display: inline
+
+      &__right
+        background-image: url("../img/advantage/man_media.png")
+        width: 376px
+        height: 348px
+
+    &__title
+      width: 375px
+      font-size: 28px
+      line-height: 34px
+      margin-bottom: 26px
+
+    &-list
+      &__all
+        flex-direction: column
+
+      &__quality
+        margin-bottom: 23px
+
+        &-img
+          margin-bottom: 16px
+
+        &-title
+          margin-bottom: 16px
+
+        &-text
+          display: none
+
+        &-textNone
+          display: inline-block
+          width: 375px
+
+      &__trueness
+        margin-bottom: 20px
+
+        &-img
+          margin-bottom: 17px
+
+        &-title
+          margin-bottom: 16px
+
+        &-text
+          display: none
+
+        &-textNone
+          display: inline-block
+          width: 375px
+
+      &__delivery
+        margin-bottom: 26px
+
+        &-img
+          margin-bottom: 19px
+
+        &-title
+          margin-bottom: 16px
+
+        &-text
+          display: none
+
+        &-textNone
+          display: inline-block
+          width: 375px
+
+      &__mounting
+        &-img
+          margin-bottom: 15px
+
+        &-title
+          margin-bottom: 16px
+
+        &-text
+          display: none
+
+        &-textNone
+          display: inline-block
+          width: 375px
+
+  .list
+    &-contents
+      text-align: center
+
+  .background-wave
+    margin-bottom: 0
+    width: 100%
+
+  .gallery
+    &-info
+      margin: 0 auto
+      width: 395px
+
+      &__title
+        width: 375px
+        line-height: 6px
+        font-size: 28px
+        margin: 0 auto 37px
+
+      &__text
+        width: 375px
+        margin-bottom: 25px
+        font-size: 15px
+        line-height: 19.5px
+
+  .cover
+    width: 395px
+    margin: 0 auto
+
+    &-list
+      margin-bottom: 15px
+      &__all
+        width: 117px
+
+  .hr
+    width: 375px
+
+  .about
+    &-info
+      &__text-media
+        display: none
+
+    &-backgroundWood
+      background-image: url("../img/about/wood-767.png")
+      background-position: 50% 105%
+
+  .form
+    &__about
+      &-text
+        width: 270px
+        text-align: center
+        margin: 0 auto 19px
+
+      &-fake
+        margin-left: 3px
+
+    &__button
+      &-about
+       padding: 28px 36px 25px 39px
 
 @media (max-width: 576px)
   .container
@@ -299,4 +596,25 @@
       width: 360px
       font-size: 28px
       line-height: 34px
-      margin: 0 auto 29px
+      margin: 0 auto 26px
+
+  .about
+    margin-bottom: 70px
+    padding-bottom: 113px
+
+    &-backgroundWood
+      background-image: url("../img/about/woodMobele-576.png")
+      background-position: 50% 75%
+
+@media (max-width: 395px)
+  .container
+    max-width: 395px
+    width: 100%
+
+  .about
+    margin-bottom: 0
+
+    &-backgroundWood
+      background-image: url("../img/about/woodMobele-395.png")
+      background-position: 50% -4%
+
