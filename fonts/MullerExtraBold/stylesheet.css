@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Muller ExtraBold';
+    src: url('MullerExtraBold.woff2') format('woff2'),
+        url('MullerExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

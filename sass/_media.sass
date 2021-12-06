@@ -95,6 +95,10 @@
     padding-right: 20px
     padding-left: 20px
 
+  .cooperationCard
+    width: 450px
+    height: 316px
+
 @media (max-width: 991px)
   .container
     max-width: 700px
@@ -277,6 +281,7 @@
     padding-left: 7px
 
   .reviews
+    margin-bottom: 29px
     &__title
       width: 250px
       text-align: center
@@ -284,6 +289,34 @@
       line-height: 33px
       margin: 0 auto 15px
 
+  .cooperationCard
+    width: 359px
+    height: 316px
+    margin: 0 auto 29px
+
+  .cooperation
+    &__title
+      font-size: 28px
+      line-height: 35px
+      letter-spacing: 0
+      text-align: center
+      width: 340px
+      margin: 0 auto 56px
+
+    &-card
+      &__title
+        padding-right: 7px
+
+  .cooperationCard
+    &-timer::before
+      left: -35px
+
+    &-settings::before
+      left: -37px
+
+    &-guarantee::before
+      left: -32px
+      top: 30px
 
 @media (max-width: 767px)
   .container
