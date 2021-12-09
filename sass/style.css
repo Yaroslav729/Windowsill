@@ -1410,6 +1410,9 @@ img {
   z-index: 1;
 }
 
+.cooperation {
+  margin-bottom: 80px;
+}
 .cooperation__title {
   font-size: 36px;
   letter-spacing: 0.5px;
@@ -1417,6 +1420,53 @@ img {
   font-weight: 800;
   font-family: "Gilroy", sans-serif;
   margin-bottom: 51px;
+}
+
+.requisition {
+  background: #ffd500;
+  width: 100%;
+  padding: 46px 10px 36px 10px;
+}
+.requisition__form {
+  display: flex;
+  flex-wrap: wrap;
+}
+.requisition__form-text {
+  font-size: 16px;
+  letter-spacing: 0.37px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Gilroy", sans-serif;
+  text-align: center;
+  margin: 0 auto 35px;
+}
+.requisition__input-name {
+  width: 362px;
+  height: 69px;
+  padding-left: 22px;
+  padding-right: 22px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  border: 1px solid #e2e2e2;
+  margin-right: 29px;
+}
+.requisition__input-phone {
+  width: 358px;
+  height: 69px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  border: 1px solid #e2e2e2;
+  margin-right: 29px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.button-requisition {
+  padding: 29px 95px 24px 95px;
+  border-radius: 10px;
+  background-image: linear-gradient(180deg, #ffd800 0%, #ffc000 100%);
+  filter: drop-shadow(0 0 6.5px rgba(76, 76, 76, 0.22));
+  background-color: #e4ad00;
 }
 
 @media (max-width: 1199px) {
@@ -1518,6 +1568,17 @@ img {
   .cooperationCard {
     width: 450px;
     height: 316px;
+  }
+
+  .requisition__input-name {
+    width: 325px;
+  }
+  .requisition__input-phone {
+    width: 325px;
+  }
+
+  .button-requisition {
+    padding: 29px 43px 24px 43px;
   }
 }
 @media (max-width: 991px) {
@@ -1722,6 +1783,9 @@ img {
     margin: 0 auto 29px;
   }
 
+  .cooperation {
+    margin-bottom: 26px;
+  }
   .cooperation__title {
     font-size: 28px;
     line-height: 35px;
@@ -1743,6 +1807,38 @@ img {
   .cooperationCard-guarantee::before {
     left: -32px;
     top: 30px;
+  }
+
+  .requisition {
+    padding-top: 59px;
+    padding-bottom: 63px;
+  }
+  .requisition__form {
+    width: 370px;
+    flex-direction: column;
+    margin: 0 auto 0;
+  }
+  .requisition__form-text {
+    width: 282px;
+    margin-bottom: 28px;
+    line-height: 19px;
+  }
+  .requisition__input-name {
+    width: 363px;
+    margin-bottom: 19px;
+    padding-left: 29px;
+    margin-right: 0;
+  }
+  .requisition__input-phone {
+    width: 363px;
+    margin-bottom: 29px;
+    padding-left: 26px;
+    margin-right: 0;
+  }
+
+  .button-requisition {
+    width: 363px;
+    padding: 29px 30px 24px 40px;
   }
 }
 @media (max-width: 767px) {

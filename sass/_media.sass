@@ -99,6 +99,18 @@
     width: 450px
     height: 316px
 
+  .requisition
+    &__input
+      &-name
+        width: 325px
+
+      &-phone
+        width: 325px
+
+  .button
+    &-requisition
+      padding: 29px 43px 24px 43px
+
 @media (max-width: 991px)
   .container
     max-width: 700px
@@ -295,6 +307,7 @@
     margin: 0 auto 29px
 
   .cooperation
+    margin-bottom: 26px
     &__title
       font-size: 28px
       line-height: 35px
@@ -317,6 +330,37 @@
     &-guarantee::before
       left: -32px
       top: 30px
+
+  .requisition
+    padding-top: 59px
+    padding-bottom: 63px
+    &__form
+      width: 370px
+      flex-direction: column
+      margin: 0 auto 0
+
+      &-text
+        width: 282px
+        margin-bottom: 28px
+        line-height: 19px
+
+    &__input
+      &-name
+        width: 363px
+        margin-bottom: 19px
+        padding-left: 29px
+        margin-right: 0
+
+      &-phone
+        width: 363px
+        margin-bottom: 29px
+        padding-left: 26px
+        margin-right: 0
+
+  .button
+    &-requisition
+      width: 363px
+      padding: 29px 30px 24px 40px
 
 @media (max-width: 767px)
   .container
