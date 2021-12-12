@@ -752,6 +752,7 @@ img {
 }
 .card-block__economic-button {
   border-radius: 10px;
+  background-color: #e4ad00;
   background-image: linear-gradient(180deg, #ffd800 0%, #ffc000 100%);
   padding: 26px 89px 26px 90px;
 }
@@ -800,6 +801,7 @@ img {
 }
 .card-block__danke-button {
   border-radius: 10px;
+  background-color: #e4ad00;
   background-image: linear-gradient(180deg, #ffd800 0%, #ffc000 100%);
   padding: 26px 89px 26px 90px;
 }
@@ -848,6 +850,7 @@ img {
 }
 .card-block__moeller-button {
   border-radius: 10px;
+  background-color: #e4ad00;
   background-image: linear-gradient(180deg, #ffd800 0%, #ffc000 100%);
   padding: 26px 89px 26px 90px;
 }
@@ -1222,6 +1225,7 @@ img {
 .form__button-about {
   width: 292px;
   border-radius: 10px;
+  background-color: #e4ad00;
   background-image: linear-gradient(180deg, #ffd800 0%, #ffc000 100%);
   padding: 28px 52px 25px 50px;
   margin-bottom: 14px;
@@ -1411,7 +1415,7 @@ img {
 }
 
 .cooperation {
-  margin-bottom: 80px;
+  margin-bottom: 85px;
 }
 .cooperation__title {
   font-size: 36px;
@@ -1425,7 +1429,7 @@ img {
 .requisition {
   background: #ffd500;
   width: 100%;
-  padding: 46px 10px 36px 10px;
+  padding: 42px 10px 34px 10px;
 }
 .requisition__form {
   display: flex;
@@ -1433,12 +1437,12 @@ img {
 }
 .requisition__form-text {
   font-size: 16px;
-  letter-spacing: 0.37px;
+  letter-spacing: 0.17px;
   color: #000000;
   font-weight: bold;
   font-family: "Gilroy", sans-serif;
   text-align: center;
-  margin: 0 auto 35px;
+  margin: 0 auto 33px;
 }
 .requisition__input-name {
   width: 362px;
@@ -1469,6 +1473,104 @@ img {
   background-color: #e4ad00;
 }
 
+.footer {
+  background-color: #f6f6f6;
+  padding: 65px 0 70px;
+}
+
+.allDetails {
+  display: flex;
+  justify-content: space-between;
+}
+
+.smartphone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 360px;
+  padding-right: 55px;
+}
+.smartphone-img {
+  width: 45px;
+  height: 79px;
+  margin-bottom: 19px;
+}
+.smartphone-text {
+  font-size: 16px;
+  letter-spacing: 0;
+  color: #3a3a3a;
+  font-family: "Gilroy", sans-serif;
+  margin-bottom: 18px;
+}
+.smartphone-phone {
+  font-size: 18px;
+  letter-spacing: 0;
+  color: #3a3a3a;
+  font-weight: bold;
+  font-family: "Gilroy", sans-serif;
+  margin-bottom: 16px;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+  align-items: center;
+}
+.email-img {
+  width: 81px;
+  height: 81px;
+  margin-bottom: 17px;
+}
+.email-text {
+  font-size: 16px;
+  letter-spacing: 0;
+  color: #3a3a3a;
+  font-family: "Gilroy", sans-serif;
+  margin-bottom: 18px;
+}
+.email-email {
+  font-size: 18px;
+  letter-spacing: 0;
+  color: #3a3a3a;
+  font-weight: bold;
+  font-family: "Gilroy", sans-serif;
+}
+
+.placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 390px;
+}
+.placeholder-img {
+  width: 81px;
+  height: 81px;
+  margin-bottom: 17px;
+}
+.placeholder-text {
+  font-size: 16px;
+  letter-spacing: 0;
+  color: #3a3a3a;
+  font-family: "Gilroy", sans-serif;
+  margin-bottom: 18px;
+}
+.placeholder-address {
+  width: 252px;
+  font-size: 18px;
+  letter-spacing: 0;
+  color: #3a3a3a;
+  font-weight: bold;
+  font-family: "Gilroy", sans-serif;
+  text-align: center;
+}
+
+.label {
+  display: flex;
+  justify-content: space-between;
+  width: 110px;
+}
+
 @media (max-width: 1199px) {
   .container {
     max-width: 970px;
@@ -1476,9 +1578,11 @@ img {
 
   .headerInfo-right__addressText {
     font-size: 12px;
+    line-height: 19px;
   }
   .headerInfo-right__clockText {
     font-size: 12px;
+    line-height: 20px;
   }
 
   .navbarMenu-left__menu {
@@ -1839,6 +1943,30 @@ img {
   .button-requisition {
     width: 363px;
     padding: 29px 30px 24px 40px;
+  }
+
+  .footer {
+    padding-top: 41px;
+  }
+
+  .allDetails {
+    flex-direction: column;
+  }
+
+  .smartphone {
+    padding: 0;
+    width: 359px;
+    margin: 0 auto 30px;
+  }
+
+  .email {
+    width: 359px;
+    margin: 0 auto 26px;
+  }
+
+  .placeholder {
+    width: 359px;
+    margin: 0 auto 0;
   }
 }
 @media (max-width: 767px) {
