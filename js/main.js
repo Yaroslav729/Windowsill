@@ -10,6 +10,14 @@
 //     }
 // })
 
+let menuButton = document.querySelector('.navbarMenu-btn');
+menuButton.addEventListener('click', function (){
+    console.log('Клик');
+    document
+        .querySelector('.navbarMenu-left')
+        .classList.toggle('navbarMenu-left--visible');
+});
+
 const filterBox = document.querySelectorAll('.box');
 
 document.querySelector('.cover').addEventListener('click', event => {

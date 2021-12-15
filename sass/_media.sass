@@ -388,11 +388,20 @@
     max-width: 576px
     width: 92%
 
+  .header
+    &--mobile
+      &_fixed
+        position: fixed
+        left: 0
+        top: 0
+        right: 0
+        z-index: 10
+
   .headerTop
     background-color: #ffd300
 
   .headerInfo
-    padding: 11px
+    padding: 9px
 
     &-logoImg
       display: none
@@ -425,9 +434,26 @@
   .navbarMenu
     align-items: center
     padding: 10px
+
     &-left
+      display: none
+      position: fixed
+      left: 0
+      right: 0
+      top: 0
+      bottom: 0
+      background: rgba(39, 112, 144, 0.9)
+      padding-top: 20px
+
+
+      &--visible
+        display: block
+
       &__list
-        display: none
+        flex-direction: column
+
+      &__listMenu
+        margin-bottom: 20px
 
     &-logoImg
       background-image: url("../img/header/logo.svg")
@@ -489,6 +515,7 @@
       margin: 0 auto 29px
       font-size: 36px
       line-height: 40px
+      padding-top: 100px
 
     &__text
       width: 530px

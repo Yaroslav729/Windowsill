@@ -1975,12 +1975,20 @@ img {
     width: 92%;
   }
 
+  .header--mobile_fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 10;
+  }
+
   .headerTop {
     background-color: #ffd300;
   }
 
   .headerInfo {
-    padding: 11px;
+    padding: 9px;
   }
   .headerInfo-logoImg {
     display: none;
@@ -2014,8 +2022,24 @@ img {
     align-items: center;
     padding: 10px;
   }
-  .navbarMenu-left__list {
+  .navbarMenu-left {
     display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(39, 112, 144, 0.9);
+    padding-top: 20px;
+  }
+  .navbarMenu-left--visible {
+    display: block;
+  }
+  .navbarMenu-left__list {
+    flex-direction: column;
+  }
+  .navbarMenu-left__listMenu {
+    margin-bottom: 20px;
   }
   .navbarMenu-logoImg {
     background-image: url("../img/header/logo.svg");
@@ -2077,6 +2101,7 @@ img {
     margin: 0 auto 29px;
     font-size: 36px;
     line-height: 40px;
+    padding-top: 100px;
   }
   .ofer__text {
     width: 530px;
