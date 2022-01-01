@@ -10,13 +10,48 @@
 //     }
 // })
 
-let menuButton = document.querySelector('.navbarMenu-btn');
-menuButton.addEventListener('click', function (){
-    console.log('Клик');
-    document
-        .querySelector('.navbarMenu-left')
-        .classList.toggle('navbarMenu-left--visible');
-});
+                         // Меню бургер
+const menuButton = document.querySelector('.navbarMenu-btn');
+const menuBtn = document.querySelector('.navbarMenu-btn__line');
+const menuNavbar = document.querySelector('.navbarMenu-left');
+const menuBody = document.querySelector('.navbarMenu-left');
+if (menuButton){
+    menuButton.addEventListener("click", function (e) {
+        document.body.classList.toggle('lock')
+        menuButton.classList.toggle('navbarMenu-btn--visible');
+        menuBtn.classList.toggle('navbarMenu-btn__line--visible');
+        menuNavbar.classList.toggle('navbarMenu-left--visible');
+    });
+}
+
+// Прокрутка при клике
+
+const menuLinks = document.querySelectorAll(".navbarMenu-left__menu[data-goto]");
+if (menuLinks.length > 0) {
+    menuLinks.forEach(menuLinks => {
+        menuLinks.addEventListener("click", onMenuLinkClick);
+    });
+    function onMenuLinkClick(e) {
+        const menuLink = e.target;
+        if (menuLink.dataset.goto && document.querySelector(menuLink.dataset.goto)) {
+            const gotoBlock = document.querySelector(menuLink.dataset.goto);
+            const gotoBlockValue = gotoBlock.getBoundingClientRect().top + pageYOffset - document.querySelector('header').offsetHeight;
+        if (menuButton.classList.contains('navbarMenu-btn--visible')){
+            document.body.classList.remove('lock')
+            menuButton.classList.remove('navbarMenu-btn--visible');
+            menuBtn.classList.remove('navbarMenu-btn__line--visible');
+            menuNavbar.classList.remove('navbarMenu-left--visible');
+        }
+            window.scrollTo({
+                top: gotoBlockValue,
+                behavior: "smooth"
+            });
+            e.preventDefault();
+        }
+    }
+}
+
+//------------------------------------------------------------------------
 
 const filterBox = document.querySelectorAll('.box');
 
