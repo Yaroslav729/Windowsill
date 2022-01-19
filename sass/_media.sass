@@ -113,6 +113,10 @@
     &-requisition
       padding: 29px 43px 24px 43px
 
+  .swiper
+    padding-left: 0
+    padding-right: 0
+
 @media (max-width: 991px)
   .container
     max-width: 700px
@@ -382,6 +386,23 @@
   .placeholder
     width: 359px
     margin: 0 auto 0
+
+  .modal
+    &-all
+      max-width: 47rem
+
+    &-container
+      max-width: 700px
+
+    &-presentation
+      &__left
+        width: 20rem
+
+      &__right
+        width: 23rem
+
+  .swiper
+    width: 100%
 
 @media (max-width: 767px)
   .container
@@ -725,6 +746,60 @@
     &__button
       &-about
        padding: 28px 36px 25px 39px
+
+  .modal
+    width: 375px
+    padding-top: 50px
+    padding-bottom: 20px
+    margin: auto
+
+    &-form
+      padding: 0
+
+    &-info
+      width: 360px
+      padding: 0 15px 0 15px
+
+    &-presentation
+      width: 360px
+      padding: 0 15px 0 15px
+
+    &-price
+      flex-direction: column
+      padding: 0 15px 0 15px
+
+      &__text
+        margin-bottom: 30px
+        margin-right: 0
+
+      &__button
+        padding: 25px 20px 25px 20px
+
+    &-slider
+      height: 206px
+
+  .cl-btn-2
+    width: 30px
+    height: 30px
+    top: 0
+    right: 10px
+
+  .cl-btn-2 .leftright
+    width: 30px
+    background-color: #4c4c4c
+
+  .cl-btn-2 .rightleft
+    width: 30px
+    background-color: #4c4c4c
+
+  .close-btn
+    display: none
+
+  .swiper
+    &-slide
+      &__img
+        width: 360px
+        height: 206px
 
 @media (max-width: 576px)
   .container

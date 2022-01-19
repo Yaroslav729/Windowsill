@@ -1620,6 +1620,8 @@ img {
   padding-bottom: 0;
 }
 .modal-container {
+  display: flex;
+  flex-direction: column;
   max-width: 810px;
   margin: auto;
 }
@@ -1920,6 +1922,11 @@ img {
   .button-requisition {
     padding: 29px 43px 24px 43px;
   }
+
+  .swiper {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 @media (max-width: 991px) {
   .container {
@@ -2203,6 +2210,23 @@ img {
   .placeholder {
     width: 359px;
     margin: 0 auto 0;
+  }
+
+  .modal-all {
+    max-width: 47rem;
+  }
+  .modal-container {
+    max-width: 700px;
+  }
+  .modal-presentation__left {
+    width: 20rem;
+  }
+  .modal-presentation__right {
+    width: 23rem;
+  }
+
+  .swiper {
+    width: 100%;
   }
 }
 @media (max-width: 767px) {
@@ -2549,6 +2573,64 @@ img {
   }
   .form__button-about {
     padding: 28px 36px 25px 39px;
+  }
+
+  .modal {
+    width: 375px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin: auto;
+  }
+  .modal-form {
+    padding: 0;
+  }
+  .modal-info {
+    width: 360px;
+    padding: 0 15px 0 15px;
+  }
+  .modal-presentation {
+    width: 360px;
+    padding: 0 15px 0 15px;
+  }
+  .modal-price {
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+  }
+  .modal-price__text {
+    margin-bottom: 30px;
+    margin-right: 0;
+  }
+  .modal-price__button {
+    padding: 25px 20px 25px 20px;
+  }
+  .modal-slider {
+    height: 206px;
+  }
+
+  .cl-btn-2 {
+    width: 30px;
+    height: 30px;
+    top: 0;
+    right: 10px;
+  }
+
+  .cl-btn-2 .leftright {
+    width: 30px;
+    background-color: #4c4c4c;
+  }
+
+  .cl-btn-2 .rightleft {
+    width: 30px;
+    background-color: #4c4c4c;
+  }
+
+  .close-btn {
+    display: none;
+  }
+
+  .swiper-slide__img {
+    width: 360px;
+    height: 206px;
   }
 }
 @media (max-width: 576px) {
