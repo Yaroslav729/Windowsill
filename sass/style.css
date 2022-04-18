@@ -1337,7 +1337,7 @@ img {
   margin: 0 auto 21px;
 }
 .card-imgStar {
-  background-image: url("/img/reviews/star.png");
+  background-image: url("../img/reviews/star.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -1621,6 +1621,10 @@ img {
   width: 110px;
 }
 
+.lock {
+  overflow: hidden;
+}
+
 .popup {
   position: fixed;
   width: 100%;
@@ -1754,12 +1758,12 @@ img {
 }
 .modal-slider__button--next {
   right: 20px;
-  background-image: url("/img/modal/next.png");
+  background-image: url("../img/modal/next.png");
   z-index: 199;
 }
 .modal-slider__button--prev {
   left: 20px;
-  background-image: url("/img/modal/prev.png");
+  background-image: url("../img/modal/prev.png");
 }
 .modal-price {
   display: flex;
@@ -2014,6 +2018,9 @@ img {
     margin: auto;
   }
 
+  .card-reviews {
+    margin: auto;
+  }
   .card-block {
     flex-direction: column;
   }
