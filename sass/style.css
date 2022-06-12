@@ -1123,36 +1123,96 @@ img {
   float: left;
   width: 360px;
   border-radius: 8px;
-  height: 273px;
+  height: 250px;
   margin: 0 7px 8px;
 }
 .cover-block__economicOne {
-  background-image: url("../img/gallery/img.png");
+  background-image: url("../img/gallery/economicOne.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 .cover-block__economicToo {
-  background-image: url("../img/gallery/img.png");
+  background-image: url("../img/gallery/economicToo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cover-block__economicThree {
+  background-image: url("../img/gallery/economicThree.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cover-block__economicFour {
+  background-image: url("../img/gallery/economicFour.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cover-block__economicFive {
+  background-image: url("../img/gallery/economicFive.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cover-block__economicSix {
+  background-image: url("../img/gallery/economicSix.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 .cover-block__dankeOne {
-  background-image: url("../img/gallery/img.png");
+  background-image: url("../img/gallery/dankeOne.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 .cover-block__dankeToo {
-  background-image: url("../img/gallery/img.png");
+  background-image: url("../img/gallery/dankeToo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cover-block__dankeThree {
+  background-image: url("../img/gallery/dankeThree.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cover-block__dankeFour {
+  background-image: url("../img/gallery/dankeFour.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cover-block__dankeFive {
+  background-image: url("../img/gallery/dankeFive.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cover-block__dankeSix {
+  background-image: url("../img/gallery/dankeSix.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 .cover-block__moellerOne {
-  background-image: url("../img/gallery/img.png");
+  background-image: url("../img/gallery/moellerOne.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 .cover-block__moellerToo {
-  background-image: url("../img/gallery/img.png");
+  background-image: url("../img/gallery/moellerToo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cover-block__moellerThree {
+  background-image: url("../img/gallery/moellerThree.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cover-block__moellerFour {
+  background-image: url("../img/gallery/moellerFour.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cover-block__moellerFive {
+  background-image: url("../img/gallery/moellerFive.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cover-block__moellerSix {
+  background-image: url("../img/gallery/moellerSix.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1617,7 +1677,7 @@ img {
 
 .label {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 110px;
 }
 
