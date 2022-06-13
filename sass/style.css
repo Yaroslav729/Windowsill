@@ -1413,6 +1413,9 @@ img {
 .card-three__img {
   background-image: url("../img/reviews/card-three.png");
 }
+.card-four__img {
+  background-image: url("../img/reviews/card-four.png");
+}
 .card-swiper {
   display: flex;
   padding: 10px 0 62px 0;
