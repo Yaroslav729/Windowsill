@@ -1279,7 +1279,7 @@ img {
 .about__form {
   width: 397px;
   padding-top: 4px;
-  padding-left: 72px;
+  padding-left: 50px;
 }
 .about__input-name {
   font-size: 14px;
@@ -1545,6 +1545,7 @@ img {
   padding: 42px 10px 34px 10px;
 }
 .requisition__form {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
 }
