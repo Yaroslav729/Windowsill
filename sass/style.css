@@ -576,11 +576,11 @@ img {
 }
 
 .ofer {
-  margin-bottom: 60px;
+  margin-bottom: 54px;
 }
 .ofer__img {
   background-image: url("../img/ofer/background-ofer.png");
-  background-position: 100% 0%;
+  background-position: 92% 0%;
   background-repeat: no-repeat;
   padding-top: 86px;
   padding-bottom: 181px;
@@ -590,22 +590,39 @@ img {
   justify-content: space-between;
 }
 .ofer__title {
+  width: 600px;
   font-size: 48px;
   line-height: 48px;
   color: #141414;
   font-weight: bold;
   font-family: "Gilroy", sans-serif;
-  margin-bottom: 23px;
+  margin-bottom: 50px;
 }
 .ofer__text {
-  width: 555px;
+  width: 400px;
   font-size: 16px;
   color: #4c4c4c;
   font-family: "Gilroy", sans-serif;
   margin-bottom: 35px;
+  text-align: left;
 }
-.ofer__text-bold {
-  font-weight: bold;
+.ofer__text-one {
+  display: inline-block;
+  border-left: 2px solid #FFCC2B;
+  margin-bottom: 23px;
+  padding-left: 12px;
+}
+.ofer__text-too {
+  display: inline-block;
+  border-left: 2px solid #FFCC2B;
+  margin-bottom: 23px;
+  padding-left: 12px;
+}
+.ofer__text-three {
+  display: inline-block;
+  border-left: 2px solid #FFCC2B;
+  margin-bottom: 50px;
+  padding-left: 12px;
 }
 .ofer-left {
   width: 608px;
@@ -615,7 +632,7 @@ img {
   border-radius: 10px;
   filter: drop-shadow(0 0 24.5px rgba(117, 137, 151, 0.28));
   background-color: #ffffff;
-  margin-top: 40px;
+  margin-top: 120px;
 }
 .ofer-form__button {
   width: 304px;
@@ -2063,7 +2080,7 @@ img {
   }
 
   .ofer {
-    margin-bottom: 14px;
+    margin-bottom: 8px;
   }
   .ofer__content {
     flex-direction: column;
@@ -2072,6 +2089,7 @@ img {
     padding-bottom: 39px;
   }
   .ofer__text {
+    width: 295px;
     margin: 0 auto 35px;
   }
   .ofer-left {
@@ -2523,9 +2541,7 @@ img {
     padding-top: 100px;
   }
   .ofer__text {
-    width: 530px;
     font-size: 16px;
-    text-align: center;
     margin-bottom: 30px;
   }
   .ofer-button {
@@ -2780,9 +2796,6 @@ img {
   }
   .ofer__title {
     width: 350px;
-  }
-  .ofer__text {
-    width: 373px;
   }
 
   .card__title {
